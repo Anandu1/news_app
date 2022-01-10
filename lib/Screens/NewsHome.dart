@@ -24,6 +24,7 @@ class _NewsHomeState extends State<NewsHome> {
       future:Provider.of<ProviderModel>(context, listen: false).fetchAllNews() ,
       builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot) {
       return Scaffold(
+        resizeToAvoidBottomInset: false,
         // backgroundColor: Colors.deepPurple,
         appBar: AppBar(
           backgroundColor: Colors.white,

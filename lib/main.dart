@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         create: (_)=>ProviderModel(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
+        title: 'NewsApp',
         theme: ThemeData(
           // This is the theme of your application.
           //
